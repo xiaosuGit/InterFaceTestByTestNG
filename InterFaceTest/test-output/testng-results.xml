@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1458" started-at="2018-07-13T02:41:08Z" finished-at="2018-07-13T02:41:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1458" started-at="2018-07-13T02:41:08Z" finished-at="2018-07-13T02:41:10Z">
+      <class name="com.xiaosu.testng.PostWithCookies">
+        <test-method status="PASS" signature="getCookies()[pri:0, instance:com.xiaosu.testng.PostWithCookies@2f8f11]" name="getCookies" duration-ms="1291" started-at="2018-07-13T10:41:08Z" finished-at="2018-07-13T10:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method status="PASS" signature="postWithCookies()[pri:0, instance:com.xiaosu.testng.PostWithCookies@2f8f11]" name="postWithCookies" duration-ms="133" started-at="2018-07-13T10:41:09Z" depends-on-methods="com.xiaosu.testng.PostWithCookies.getCookies" finished-at="2018-07-13T10:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postWithCookies -->
+      </class> <!-- com.xiaosu.testng.PostWithCookies -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
